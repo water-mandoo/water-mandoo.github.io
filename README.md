@@ -2,7 +2,7 @@
 
 기말 프로젝트.
 
-##sub title.
+## sub title.
 
 1. 리스트1
 2. 리스트2
@@ -15,3 +15,4 @@ code.
     code.
         code.
 ```
+
