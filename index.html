@@ -2,12 +2,46 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <title>Blog</title>
-   <!-- <meta name="viewport" content="width=device"> -->
-   <link rel="stylesheet" href="./css/style.css">
+    <title>KOKORO</title>
+   <script>
+        function openNav() {
+            document.getElementById("mySiden").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySiden").style.width = "0";
+        }
+    </script>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
 </head>
 <body>
-    <h1>blog</h1>
-    <script src="./js/script.js"></script>
+
+    <div id="mySiden" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="./main.html">MAIN</a>
+      <a href="./TOTORO.html">TOTORO</a>
+      <a href="./GHIBLI.html">GHIBLI</a>
+      <a href="https://movie.daum.net/moviedb/main?movieId=3126" target="blank">TICKETING</a>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    <!--  메뉴   -->
+    
+    	<section id="sec1">
+    		<div id="con1">
+			</div>
+    	</section>
+    
+    
+
+<script type="text/javascript" src="./js/script.js"></script>
+ <script  src="http://code.jquery.com/jquery-3.4.1.js"></script>
+ <script type="text/javascript">
+	${'selection'}.mousemove(function(a) {
+	var mouseX=(a.pageX*-1/15);
+	var mouseY=(a.pageY*-1/15);
+	$(this).css('background-position',mouseX+'px '+mouseY+'px ')
+})
+</script>
 </body>
 </html>

@@ -20,7 +20,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav{
 	display: block;
 }
 body {
@@ -41,3 +41,79 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/*메뉴*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/*본문 */
+
+  #con1{
+      
+  }
+
+  #sec1{
+  	height: 100vh;
+  	background:url('../img/back1.jpg');
+  	overflow: hidden;
+  	background-size: 110%,110%;
+  }
+
+
+
+
+
+
+
+
+  #con2{
+      
+  }
+  #con3{  
+    
+  }
+  #con4{
+    
+  }
+  #con5{
+    
+  }
+  
