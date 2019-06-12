@@ -1,0 +1,40 @@
+
+#con1{
+		text-align: center;
+		height: 850px;
+		background-attachment: fixed;
+		background-image: url("../img/studioback1.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: hidden;
+	}
+
+#con2{
+		text-align: center;
+		height: 850px;
+		background-attachment: fixed;
+		background-image: url("../img/studioback2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: hidden;
+	}
+
+#con3{
+		text-align: center;
+		height: 850px;
+		background-attachment: fixed;
+		background-image: url("../img/studioback3.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: hidden;
+	}
+
+#con4{
+		text-align: center;
+		height: 850px;
+		background-attachment: fixed;
+		background-image: url("../img/studioback3.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: hidden;
+	}
