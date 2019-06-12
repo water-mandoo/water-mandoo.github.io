@@ -1,0 +1,40 @@
+
+#con1{
+		text-align: center;
+		height: 850px;
+		background-attachment: fixed;
+		background-image: url("../img/movieback1.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: hidden;
+	}
+
+#con2{
+		text-align: center;
+		height: 850px;
+		background-attachment: fixed;
+		background-image: url("../img/movieback2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: hidden;
+	}
+
+#con3{
+		text-align: center;
+		height: 850px;
+		background-attachment: fixed;
+		background-image: url("../img/movieback3.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: hidden;
+	}
+
+#con4{
+		text-align: center;
+		height: 850px;
+		background-attachment: fixed;
+		background-image: url("../img/movieback4.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: hidden;
+	}
