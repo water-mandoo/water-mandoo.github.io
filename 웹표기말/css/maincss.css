@@ -1,0 +1,28 @@
+body{background-color: #000}
+
+/*color  #7e00ff*/
+
+#logos{
+		padding: 20px;
+		 position: fixed;
+		 margin: 0px;
+		}
+#header{height: 80px;}
+
+#maincontent{
+			color: white;
+			height: 500px;
+			padding: 30px;
+			background-image: url(../img/mainback2.png);
+			background-repeat: no-repeat;
+			overflow: hidden;
+			text-align: center;
+		}
+#maincontent table{
+			width: 100%
+}
+#mainconright{
+			color: white;
+			text-align: center;
+			font-size: 40px;
+}
