@@ -1,3 +1,14 @@
+body{
+	margin: 0px;
+	background-color: black;
+}
+
+a.top {
+    position: fixed;
+    left: 90%;
+    bottom: 50px;
+    z-index: 999;
+  }
 
 #con1{
 		text-align: center;
@@ -8,16 +19,96 @@
 		background-size: cover;
 		overflow: hidden;
 	}
+#con1 h1{font-family: 'Jua', sans-serif;
+		font-size: 40px;
+
+		}
+
+.sul1{
+	text-align: left;
+	width: 39%;
+	position:absolute;
+	left: 35%;
+	top: 440px;
+	color: white;
+	background-color: rgba(0,0,0,60%);
+	padding: 20px;
+	animation: logoani 2s , slideleft 4s
+	/*text-shadow: 2px 2px 2px black; */
+}
+
+@keyframes logoani {
+    from {opacity:0;}
+    to {opacity:1;}
+    ease-out;
+}
+
+@keyframes slideleft{
+	from {margin-left: 100%;
+			width: 100%}
+
+	to{margin-left: 0%;
+		width: 39%;}
+}
+
+@keyframes slideright{
+	from {margin-right: 100%;
+			}
+
+	to{margin-right: 0%;
+		}
+}
+
+@keyframes slideup{
+	from {margin-top: 100%;
+			}
+
+	to{margin-top: 0%;
+		}
+}
+.jung1{
+	text-align: left;
+	width: 39%;
+	position:absolute;
+	left: 35%;
+	top: 170px;
+	color: white;
+	background-color: rgba(0,0,0,60%);
+	padding: 20px;
+	animation: logoani 2s , slideleft 3s
+}
+
+.gang1{
+	font-size: 20px;
+}
+.tologo{
+	position: absolute;
+	left: 80px;
+	top: 180px;
+	width: 400px;
+	animation: logoani 2s
+}
 
 #con2{
 		text-align: center;
-		height: 850px;
+		height: 600px;
 		background-attachment: fixed;
 		background-image: url("../img/movieback2.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		overflow: hidden;
 	}
+
+#con2 h1{font-family: 'Jua', sans-serif;
+		font-size: 40px;
+		margin-top: 5%}
+
+.sul2{
+	width: 60%;
+	margin-left: 20%;
+	text-shadow: 0px 0px 10px white;
+	animation: logoani 3s
+}
 
 #con3{
 		text-align: center;
@@ -29,6 +120,17 @@
 		overflow: hidden;
 	}
 
+#con3  h1{font-family: 'Jua', sans-serif;
+		font-size: 40px;
+		margin-top: 5%;
+		color:white;}
+
+
+
+.sul3{
+	margin-top: 5%
+}
+
 #con4{
 		text-align: center;
 		height: 850px;
@@ -38,3 +140,15 @@
 		background-size: cover;
 		overflow: hidden;
 	}
+
+
+#con4 h1{font-family: 'Jua', sans-serif;
+		font-size: 40px;
+		margin-top: 5%;
+	color:white;}
+
+.sul4{
+	margin-top: 10%;
+}
+#al{width: 800px;
+	color: white;}

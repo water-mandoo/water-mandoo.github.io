@@ -44,7 +44,10 @@
         .sidenav a {font-size: 18px;}
       }
     </style>
+
 	<link rel="stylesheet" href="./css/moviecss.css"/>
+	<link rel="stylesheet" href="./css/jquery.flipster.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
 
 	<script>
         function openNav() {
@@ -55,6 +58,32 @@
             document.getElementById("mySiden").style.width = "0";
         }
     </script>
+    
+ <!-- 맨위로 이동  -->
+<script>
+      $( document ).ready( function() {
+        $( window ).scroll( function() {
+          if ( $( this ).scrollTop() > 200 ) {
+            $( '.top' ).fadeIn();
+          } else {
+            $( '.top' ).fadeOut();
+          }
+        } );
+        $( '.top' ).click( function() {
+          $( 'html, body' ).animate( { scrollTop : 0 }, 400 );
+          return false;
+        } );
+      } );
+    </script>
+
+
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+	  <script src="./js/jquery.min.js"></script>
+	  <script src="./js/jquery.flipster.min.js"></script>
+
+ 
+
+    
 </head>
 <body>
 	<div id="mySiden" class="sidenav">
@@ -64,23 +93,127 @@
       <a href="./studio.html">GHIBLI</a>
       <a href="https://movie.daum.net/moviedb/main?movieId=3126" target="blank">TICKETING</a>
     </div>
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    <span style="font-size:30px;cursor:pointer; color: #ffffff" onclick="openNav()">&#9776; open</span>
     	<!-- 메뉴-->
+    	<a href="#" class="top"><img src="./img/toptop.png" style="width: 100px"></a>
+    	<img id="cur" style="position:absolute; left:0; top:0; z-index:999; width: 50px;" src="./img/cur.gif">
 
     	<div id="con1">
+    		<h1>애니메이션 역사상 가장 위대한 명작이 온다!</h1>
+
+    		<p class="jung1">
+    			<span class="gang1">이웃집 토토로</span>(My Neighbor Totoro, 1988)<br />
+    			애니메이션, 가족 | 2001.07.28. 개봉 | 2019.06.06 재개봉 | 87분 | 일본 | 전체관람가 <br />
+    			감독 　미야자키 하야오<br />
+    			출연 　히다카 노리코, 사카모토 치카, 타카기 히토시<br />
+    			내용 　숲속에 살고 있는 특별한 친구를 만났다!<br />
+						도시를 떠나 시골로 이사 온 ‘사츠키’와 ‘메이’는 우연히 숲속에 살고 있는 신비로운 생명체 ‘토토로’를 만나 신비한 모험을 함께 한다. <br />
+						 그러던 어느 날, 어머니의 병원에서 위태로운 소식이 도착하고 언니 ‘사츠키’가 정신없이 아빠에게 연락을 취하는 와중에 ‘메이’가 행방불명 되는데…
+    		</p>
     		
+    		<img class="tologo" src="./img/imgimg.jpg">
+    		<p class="sul1">스튜디오 지브리를 대표하는 캐릭터이자 애니메이션 역사상 최고의 명작 중 하나로 꼽히는 ‘이웃집 토토로’가 6월 6일 디지털 리마스터링 국내 개봉을 확정했다.
+    		<br /><br />
+			1988년 일본에서 개봉한 ‘이웃집 토토로’는 일본 애니메이션의 거장 미야자키 하야오 감독의 대표작이자 스튜디오 지브리를 대표하는 작품으로 2001년 국내에서도 개봉하며 수많은 팬의 인생 애니메이션으로 손꼽히고 있다.
+			<br /><br />
+			6월 6일 개봉을 앞둔 ‘이웃집 토토로’는 국내 개봉 18년 만에 선보이는 디지털 리마스터링 버전으로 화면과 사운드의 질을 높인 것은 물론 최초로 우리말 더빙까지 진행해 새롭게 달라진 ‘이웃집 토토로’를 만나볼 수 있을 예정이다. 여기에 사랑스러운 캐릭터들과 감동을 배가시키는 영화 음악의 거장 히사이시 조의 명품 OST는 다시 한번 관객들의 마음을 사로잡을 것이다.
+			</p>
     	</div>
     	
     	<div id="con2">
+    		<h1>줄거리</h1>
+
+    		<p class="sul2">
+    			아빠와 사츠키, 메이는 작은 시골마을로 이사를 했다.<br />
+				낡은 집 다락방에서 검댕이 도깨비(마쿠로 쿠로스케)를 보기도 하고 집을 하나 둘 청소하며 메이와 사츠키는 즐겁기만 하다.
+				<br /><br />
+				그러던 어느날, 메이는 집앞 마당에서 신기한 동물을 발견하고 뒤를 쫓았고,<br />
+				커다란 나무 구멍속으로 빨려들어간 메이는 거대한 동물의 배 위에 떨어져 그곳에서 토토로를 만나게 된다.
+				<br /><br />
+				몸이 아파 병원에 입원중인 엄마를 보러 간 아빠에게 우산을 건네주려 정류장에서 기다리던 메이와 사츠키는<br /> 토토로와 만나게 되고,
+				앞마당에 심은 씨앗 앞에서 함께 춤을 추고 하늘을 날아다니는 등 특별한 추억을 쌓는다.
+				<br /><br />
+
+				그러던 중 엄마가 퇴원을 앞두고 증세가 심각해져 퇴원이 미뤄졌다는 연락을 받는다.<br />
+				상처받은 메이는 엄마에게 기운을 복돋아 주려고 엄마를 찾아 나섰다가 길을 잃는다.<br />
+				동생이 사라져 놀란 사츠키는 토토로에게 도움을 요청했고, 신기한 고양이 버스를 타고 메이를 찾는다.<br />
+				둘은 엄마를 찾아 병원으로 향하고 엄마 병실의 창가에 작은 선물을 놓은 뒤 돌아온다.
+    		</p>
     		
     	</div>
 
     	<div id="con3">
-    		
+    		<h1>예고편</h1>
+    		<p class="sul3">
+    		<iframe type="text/html" allowtransparency="true" frameborder="0" width="960" height="520" src="https://www.youtube.com/embed/zfUEkq-mxZU?autoplay=1&amp;controls=1&amp;rel=0&amp;html5=1&amp;modestbranding=1&amp;showinfo=0&amp;autohide=1"></iframe>
+    		</p>
     	</div>
 
     	<div id="con4">
-    		
+    		<h1>스틸컷</h1>
+    		<p class="sul4">
+    		 <article id="demo-default" class="demo">
+			      <div id="coverflow">
+			          <ul class="flip-items">
+			              <li id="al">
+			                  <img src="img/st1.jpg"><br />1/17
+			              </li>
+			              <li id="al">
+			                  <img src="img/st2.jpg"><br />2/17
+			               </li>
+			              <li id="al">
+			                  <img src="img/st3.jpg"><br />3/17
+			              </li>
+			              <li id="al">
+			                  <img src="img/st4.jpg"><br />4/17
+			              </li>
+			              <li id="al">st
+			                  <img src="img/st5.jpg"><br />5/17
+			              </li>
+			              <li id="al">
+			                  <img src="img/st6.jpg"><br />6/17
+			              </li>
+			              <li id="al">
+			                  <img src="img/st7.jpg"><br />7/17
+			              </li>
+			              <li id="al">
+			                  <img src="img/st8.jpg"><br />8/17
+			              </li>
+			              <li id="al">
+			                  <img src="img/st9.jpg"><br />9/17
+			              </li>
+			              <li id="al"> 
+			                  <img src="img/st10.jpg"><br />10/17
+			              </li>
+			              <li id="al">
+			                <img src="img/st11.jpg"><br />11/17
+			              </li>
+			              <li id="al">
+			                <img src="img/st12.jpg"><br />12/17
+			              </li>
+			              <li id="al">
+			                <img src="img/st13.jpg"><br />13/17
+			              </li>
+			              <li id="al">
+			                  <img src="img/st14.jpg"><br />14/17
+			              </li>
+			              <li id="al">
+			                  <img src="img/st15.jpg"><br />15/17
+			              </li>
+			              <li id="al">
+			                  <img src="img/st16.jpg"><br />16/17
+			              </li>
+			              <li id="al">
+			                  <img src="img/st17.jpg"><br />17/17
+			              </li>
+			          </ul>
+			      </div>
+			  
+			  <script>
+			      var coverflow = $("#coverflow").flipster();
+			  </script>
+		  </article>
+		  </p>
     	</div>
 
 
@@ -88,7 +221,42 @@
 
 
 
-    <script  src="http://code.jquery.com/jquery-3.4.1.js"></script>
+   <script  src="http://code.jquery.com/jquery-3.4.1.js"></script>
+    <script language="JavaScript">
+<!--
+    // 마우스 커서 위치 담을 변수
+    var mouseX = 0;
+    var mouseY = 0; 
+ 
+    function getMousePosition(e){
+        var eObj = window.event? window.event : e; // IE, FF 에 따라 이벤트 처리 하기
+        mouseX = eObj.clientX;
+        mouseY = eObj.clientY + document.documentElement.scrollTop; // 화면을 스크롤 했을때를 위한 처리 (스크롤 한 만큼 마우스 Y좌표에 + )
+        // documentElement 가 안된다면 body 바꿔야 한다. 크롬의 경우.. (자동파악 로직 필요)
+    }
+ 
+    function moveImg(){
+        // 이미지 위치 파악하기
+        var m_x = parseInt(document.getElementById('cur').style.left.replace('px', ''));
+        var m_y = parseInt(document.getElementById('cur').style.top.replace('px', ''));
+ 
+        // 이미지 움직이기
+        document.getElementById('cur').style.left = Math.round(m_x + ((mouseX - m_x) / 5)) + 'px';
+        document.getElementById('cur').style.top = Math.round(m_y + ((mouseY - m_y) / 5)) + 'px';
+ 
+        // 부드럽게 따라오는 공식 대략..
+        // 현재 이미지위치 = 현재이미지 위치 + (이미지 위치기준 마우스 커서 위치 / 적절한 나누기 값)
+        // 반복 처리 해주면 됩니다.
+         
+        // ※ 이미지 위치 기준 마우스 커서 위치란?
+        // 이미지를 기준으로 그 이미지에서 커서가 얼마나 떨어져 있는지 여부
+    }
+ 
+    document.onmousemove = getMousePosition; // 마우스가 움직이면 getMousePosition 함수 실행
+    setInterval("moveImg()", 50); // moveImg 함수 반복 실행하여 이미지 움직이기
+ 
+//-->
+</script>
 	
 </body>
 </html>

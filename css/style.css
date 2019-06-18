@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav{
 }
 body {
 	line-height: 1;
+	background-color: black;
 }
 ol, ul {
 	list-style: none;
@@ -41,14 +42,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+a:link {text-decoration: none;}
 
 /*메뉴*/
 
 
 
-/*본문 */
-
+/*본문 
   #con1{
       
   }
@@ -60,7 +60,7 @@ table {
   	overflow: hidden;
   	background-size: 110%,110%;
   }
-
+*/
 #videobcg { 
      position: absolute;
      top: 0px;
@@ -71,4 +71,33 @@ table {
      height: auto;
      z-index: -1000;
      overflow: hidden;
+}
+
+.mainlogos{
+	width: 100%
+	margin:0px;
+}
+
+
+.logoimg{
+	width: 550px;
+	margin-left: 35%;
+	margin-top: 30px;
+	animation: logoani 3s;
+}
+.ghilogoimg{
+	width: 300px;
+	/*margin-right: 0px;
+	padding-left:80px; */
+	position: fixed;
+	left: 80%;
+	top:80%;
+	animation: logoani 3s;
+}
+
+
+@keyframes logoani {
+    from {opacity:0;}
+    to {opacity:1;}
+    ease-out;
 }
